@@ -54,6 +54,10 @@ class ReminderViewController: UICollectionViewController {
         }
     }
     
+    private func updateSnapshotForEditing() {
+        var snapshot = Snapshot()
+    }
+    
     private func updateSnapshot() {
         var snapshot = Snapshot()
         snapshot.appendSections([.view])
